@@ -1,0 +1,93 @@
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background-color: #faf4e6;
+  padding: 4rem 0rem;
+}
+.slider-container h4 {
+  text-align: center;
+  font-size: 36px;
+}
+.slider-container h5 {
+  font-size: 20px;
+  margin: 0rem;
+  font-family: "Wulkan Display", serif;
+}
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+  margin-top: 2rem;
+}
+
+.slide {
+  min-width: 33.33%;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.card {
+  width: 100%;
+  background: #f5ecd8;
+  border-radius: 20px;
+  padding: 1rem 1rem 0rem 1rem;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quoted {
+  font-size: 80px;
+}
+
+.text {
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.card-footer {
+  background: #b8872b;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem;
+  border-radius: 0 0 20px 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #b8872b;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #b8872b;
+}
+
+.quote-container {
+  position: relative;
+  left: -11rem;
+  font-family: "Playfair Display";
+  height: 4rem;
+}

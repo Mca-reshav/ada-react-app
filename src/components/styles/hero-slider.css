@@ -1,0 +1,95 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+
+/* Background */
+.hero-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Gradient Overlay */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  transform: translateY(-50%);
+  color: white;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Wulkan Display", serif;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Playfair Display", serif;
+  margin: 10px 0px;
+}
+
+/* Dots */
+.hero-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Hexagon style */
+.dot {
+  width: 16px;
+  height: 16px;
+  background: #ccc;
+  cursor: pointer;
+
+  clip-path: polygon(
+    25% 5%, 75% 5%,
+    100% 50%,
+    75% 95%, 25% 95%,
+    0% 50%
+  );
+}
+
+.dot.active {
+  background: #f5d76e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-content {
+    left: 20px;
+    right: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-dots {
+    left: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+h3,
+h4 {
+  font-family: "Wulkan Display", serif;
+}
+
+.treatment-main-container h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.treatment-image {
+  display: flex;
+  align-items: center;
+}
+.treatment-image img {
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  /* margin: 2rem 1rem; */
+}
+.treatment-main-container {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20%;
+  background-color: #faf4e6;
+  padding-top: 7rem;
+  gap:2rem
+}
+.treatment-container {
+  display: flex;
+  gap: 5rem;
+  padding: 2rem 0rem;
+}
+.treatment-top-banner {
+  position: relative;
+  width: stretch;
+  top: 2rem;
+  margin-top: -15rem;
+}

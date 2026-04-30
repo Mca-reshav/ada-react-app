@@ -1,0 +1,66 @@
+.union-main-container {
+  background-color: #faf4e6 !important;
+}
+
+.union-services-list-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.union-top-banner img {
+  width: stretch;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.union-top-banner {
+  height: 15rem;
+}
+.union-top-banner h4 {
+  color: #fff;
+  position: relative;
+  top: -25rem;
+  font-family: "Wulkan Display", serif;
+  text-align: center;
+  font-size: 32px;
+}
+.union-top-banner h3 {
+  position: relative;
+  top: -19rem;
+  color: #c18c2c;
+  font-family: "Wulkan Display", serif;
+  text-align: center;
+  font-size: 80px;
+}
+.union-container h3 {
+  font-family: "Wulkan Display", serif;
+  font-size: 36px !important;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.union-services-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.union-services-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: anchor-center;
+}
+
+.union-services-list-item h6 {
+  max-width: 8rem;
+  text-align: center;
+  font-family: "Wulkan Display", serif;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+.union-button {
+  display: flex;
+  justify-content: center;
+}
+.union-container {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}

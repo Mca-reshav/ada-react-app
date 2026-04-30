@@ -1,0 +1,29 @@
+/* .simple-steps-main-container {
+        background: linear-gradient(90deg, #C18C2C 0%, #FCF38A 50.52%, #C18C2C 100%);
+} */
+
+.simple-steps-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+.simple-steps-container h4 {
+  background: linear-gradient(90deg, #c18c2c 0%, #fcf38a 50.52%, #c18c2c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-family: "Wulkan Display", serif;
+  text-align: center;
+  width: 14rem;
+}
+
+.simple-steps-body img {
+  height: 8rem;
+  width: stretch;
+  margin-inline: 3rem;
+  padding: 2rem 0rem;
+}

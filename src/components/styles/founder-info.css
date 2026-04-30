@@ -1,0 +1,61 @@
+.main-container {
+  background-color: #f7eed9;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* max-width: 1100px; */
+  margin: auto;
+  position: relative;
+  padding: 4rem 2rem;
+}
+
+/* IMAGE */
+.image {
+  position: relative;
+  z-index: 2;
+}
+
+.image img {
+  width: 420px;
+  border-radius: 20px;
+  height: 300px;
+}
+
+/* INFO CARD */
+.info {
+  border: 2px solid #daa520;
+  border-radius: 20px;
+  padding: 2rem 3rem 4rem 7rem;
+  background: transparent;
+  margin-left: -80px;
+  z-index: 1;
+  height: 16rem;
+  max-width: 30rem;
+}
+
+.info h3,
+h4 {
+  font-family: "Wulkan Display", serif;
+  margin: 0px;
+}
+.info h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.info h4 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.info-description span {
+  font-weight: 500;
+}
+
+.quote {
+  margin: 20px 0;
+  line-height: 1.6;
+  /* font-family: "Playfair Display", serif; */
+}
