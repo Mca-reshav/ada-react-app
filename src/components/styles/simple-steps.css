@@ -21,9 +21,14 @@
   width: 14rem;
 }
 
+.simple-steps-body {
+  width: 100%;
+}
 .simple-steps-body img {
-  height: 8rem;
-  width: stretch;
-  margin-inline: 3rem;
-  padding: 2rem 0rem;
+  height: auto;
+  width: 100%;
+  max-width: 60rem;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }

@@ -57,5 +57,8 @@ h4 {
 .quote {
   margin: 20px 0;
   line-height: 1.6;
-  /* font-family: "Playfair Display", serif; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

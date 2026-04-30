@@ -18,6 +18,10 @@
     white-space: nowrap;
 }
 
+.nav-left img {
+    margin-bottom: 0rem;
+}
+
 .nav-right {
     display: flex;
     gap: 1rem;
