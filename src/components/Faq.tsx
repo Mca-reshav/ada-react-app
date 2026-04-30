@@ -1,4 +1,5 @@
 import { Accordion, type AccordionItem } from './Accordion'
+import GradientButton from './GradientButton';
 import './styles/faq.css'
 
 export const Faq = () => {
@@ -26,6 +27,7 @@ export const Faq = () => {
             <div className="faq-container">
                 <h3>Frequently asked questions</h3>
                  <Accordion/>
+                 <GradientButton text='See all FAQ' arrow={true}/>
             </div>
         </div>
     )
